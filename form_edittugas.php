@@ -43,7 +43,7 @@ if (isset($_POST['update'])) {
 </head>
 <body>
     <div class="container mt-4">
-        <h2 class="text-center">Edit Tugas</h2>
+        <h2 class="text-center">Edit Tugas Kuliah</h2>
         <div class="card p-4 shadow">
             <form method="POST">
                 <div class="mb-3">
