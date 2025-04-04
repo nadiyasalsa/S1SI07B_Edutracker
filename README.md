@@ -2,7 +2,7 @@
 ## PENGEMBANGAN APLIKASI WEBSITE
 ### "EDUTRACKER"
 
-![Telkom University Logo](https://images.app.goo.gl/qeGpgKvYZz57vZDM6)  
+![Telkom University Logo](https://id.m.wikipedia.org/wiki/Berkas:Logo_Telkom_University_potrait.png)  
 
 **Disusun Oleh:**  
 - Selvia Oktarina Br Sihaloho - 2311103095  
