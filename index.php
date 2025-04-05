@@ -13,8 +13,8 @@
     <div class="container mt-5">
         <div class="text-center mb-5">
             <img src="logoedutracker.png" alt="Logo EduTracker" width="150" class="mb-4">
-            <h1 class="display-4 text-primary fw-bold">Selamat Datang di EduTracker</h1>
-            <p class=" lead mb-5">Atur tugas dengan mudah, raih prestasi dengan cerdas!</p>
+            <h1 class="display-4 text-primary fw-bold">Selamat datang di Edutracker</h1>
+            <p class=" lead mb-5">Atur tugas dengan mudah, Raih prestasi dengan cerdas!</p>
           
         </div>
 
