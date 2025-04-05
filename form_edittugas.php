@@ -12,7 +12,7 @@ $result = mysqli_query($conn, "SELECT * FROM daftartugas WHERE id_tugas = $id");
 $row = mysqli_fetch_assoc($result);
 
 if (!$row) {
-    die("Tugas tidak ditemukan.");
+    die("Tugas tidak di temukan.");
 }
 
 if (isset($_POST['update'])) {
