@@ -1,0 +1,92 @@
+/* === Warna dan Font Global === */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Tombol Kembali === */
+.btn-back {
+    display: inline-block;
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.btn-back:hover {
+    background: linear-gradient(90deg, #f107a3, #7b2ff7);
+}
+
+/* === Container Formulir === */
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* === Judul Form === */
+.container h2 {
+    text-align: center;
+    color: #8e2de2;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+/* === Input, Textarea, dan Select === */
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #8e2de2;
+    box-shadow: 0 0 8px rgba(142, 45, 226, 0.2);
+    outline: none;
+}
+
+/* === Tombol Submit === */
+button[type="submit"] {
+    width: 100%;
+    background-color: #8e2de2;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #8e2de2;
+    transform: scale(1.02);
+}
+
+/* === Responsif === */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
